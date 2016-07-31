@@ -35,9 +35,15 @@ body {
 }
 
 .link::after {
+	
+	display: block;
+	
+	width: 10%;
+	height: 2px;
+	
+	margin: 0 auto;
+
+	background-color: black;
+
 	content: '';
-	background-color: red;
-	height: 1px;
-	width: auto;
-	padding-bottom: 10px;
 }
