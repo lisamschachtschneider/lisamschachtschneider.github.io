@@ -34,16 +34,16 @@ body {
     text-decoration: none;
 }
 
-.link::after {
+// .link::after {
 	
-	display: block;
+// 	display: block;
 	
-	width: 10%;
-	height: 2px;
+// 	width: 10%;
+// 	height: 2px;
 	
-	margin: 0 auto;
+// 	margin: 0 auto;
 
-	background-color: black;
+// 	background-color: black;
 
-	content: '';
-}
+// 	content: '';
+// }
