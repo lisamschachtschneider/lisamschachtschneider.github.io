@@ -3,11 +3,18 @@ body {
 }
 
 .page-home {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 
-    width: 720px;
-    height: 530px;
-	
 
+	width: 94%;
+    height: 94%;
+
+    padding: 3%;
+    margin: auto;
 }
 
 .title {
@@ -18,7 +25,10 @@ body {
 }
 
 .p {
+	padding-bottom: 30px;
+
 	font-size: 20px;
+	font-family: Helvetica, sans-serif;
 }
 
 .link {
@@ -28,26 +38,10 @@ body {
 
 
 @media screen and (max-width: 724px) {
-	.page-home {
-		position: absolute;
-		top:0;
-		right:0;
-		bottom: 0;
-		left: 0;
-
-
-		width: 94%;
-	    height: 97%;
-	
-	    padding: 3%;
-	    margin:auto;
-	}
 
 	.p {
-		
-	    // width: 230px;
 
-	    padding-bottom: 30px;
+	    // padding-bottom: 30px;
 
 	    font-size: 12px;
 	    font-family: Helvetica, sans-serif;
