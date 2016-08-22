@@ -1,0 +1,35 @@
+.title {
+	padding-bottom: 40px;
+
+	font-size: 23px;
+    
+    text-transform: uppercase;
+}
+
+.subtitle {
+	
+	width: 180px;
+
+	padding-bottom: 30px;
+	
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.subheader {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.p {
+	padding-bottom: 20px;
+
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.link {
+	text-decoration: none;
+    font-weight: bold;
+    color: black;
+}

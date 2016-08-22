@@ -1,97 +1,69 @@
-body {
-	position: fixed;
+.section-intro__copy {
+    display: block;
 
-	min-height:100%;
-    height: 100%;
-    width: 100%;
-
-    line-height: 0;
-}
-
-.main {
-	position: relative;
-
-    width: 100%;
-    height: 100%;
+    padding: 24px 24px 43px;
+    margin: 0 auto;
     
-    padding: 0;
-    margin: 0;
-   
+    font-size: 0;
 }
 
-.page-home {
 
+.section-intro__icon-chicago {
+    display: inline-block;
+
+    position: absolute;
+	top: 132px;
+    right: 46px;
+
+    width: 70px;
+    height: 70px;
+}
+
+.experience-section {
+    top: 100px;
+
+    width: 240px;
+    
+    font-size: 15px;
+}
+
+.experience-section__title {
 	position: absolute;
-    top: 0;
+    top: 4px;
+
+    padding-left: 50px;
+}
+
+.experience-section__image {
+	position: absolute;
+	top: -10px;
+	left: 0;
+    
+}
+
+.section-intro__icon {
+	display: block;
+
     right: 0;
-    bottom: 0;
     left: 0;
 
-    // width: 100px;
-    // height: 100px;
-    // padding: 5%;
-    margin: auto;
- 
-    color: black;
-    // background-color: red;
-
-    overflow: scroll;
+    margin: 20px auto;
 }
 
-.nav-bar {
-	position: fixed;
-	display: block;
+.section-intro__icon-title  {
+	display: inline-block;
 
-	height: 50px;
-	width: 100%;
-
-	// background-color: red;
-	border-bottom: 1px solid grey;
+    position: absolute;
+	top: 242px;
+    left: 25px;
+    
+    width: 50px;
+    height: 50px;
 }
 
-.nav-icon {
-	display: block;
-
-	position: absolute;
-    right: 10px;
-    top: 10px;
-
-	width: 30px;
-	height: 30px;
-
-}
-
-.title-section {
+.section-experience__title {
 	
-	position: relative;
-	top: 80px;
+    display: inline-block;
+    padding: 19px 0 30px 70px;
 
-	width: 250px;
-    height: 130px;
-    
-    margin: auto;
-    
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    background-color: white;
-}
-
-.title {
-	padding-bottom: 40px;
-
-	font-size: 23px;
-    
-    text-transform: uppercase;
-}
-
-.subtitle {
-	padding-bottom: 30px;
-
-	font-size: 14px;
-	line-height: 1.5;
-}
-
-.link {
-    color: grey;
-    text-decoration: none;
 }
