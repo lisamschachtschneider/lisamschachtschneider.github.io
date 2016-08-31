@@ -1,22 +1,35 @@
-.section-intro__copy {
+.section-main__copy {
     display: block;
 
-    padding: 24px 24px 43px;
+    padding: 100px 24px 100px;
     margin: 0 auto;
     
     font-size: 0;
 }
 
+.section-tagline {
+	position: relative;
 
-.section-intro__icon-chicago {
+	margin-bottom: 40px;
+}
+
+.section-main__icon-chicago {
     display: inline-block;
 
     position: absolute;
-	top: 132px;
-    right: 46px;
+	top: 20px;
+    right: 10px;
 
     width: 70px;
     height: 70px;
+}
+
+.section-experience__header {
+	position: relative;
+    
+    height: 80px;
+
+    margin-bottom: 40px;
 }
 
 .experience-section {
@@ -41,7 +54,7 @@
     
 }
 
-.section-intro__icon {
+.section-main__icon {
 	display: block;
 
     right: 0;
@@ -50,11 +63,11 @@
     margin: 20px auto;
 }
 
-.section-intro__icon-title  {
+.section-main__icon-title  {
 	display: inline-block;
 
     position: absolute;
-	top: 242px;
+	top: 20px;
     left: 25px;
     
     width: 50px;
@@ -64,6 +77,26 @@
 .section-experience__title {
 	
     display: inline-block;
-    padding: 19px 0 30px 70px;
+	
+	position: absolute;
+    top: 30px;
+    // top: 40px;
+    right: 60px;
+    width: 120px;
+	// width: 200px;
+}
 
+@media screen and (min-width:667px) {
+	.section-main__copy {
+
+	    padding: 100px 200px 100px;
+    
+	}
+
+	.section-experience__title {
+
+	    top: 40px;
+
+		width: 200px;
+	}
 }
