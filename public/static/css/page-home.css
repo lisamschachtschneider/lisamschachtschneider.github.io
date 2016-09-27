@@ -1,0 +1,66 @@
+.page-home__button-arrow--right {
+	display: block;
+	position: absolute;
+
+	top: 40%;
+	right: 0;
+}
+
+.page-home__button-arrow--bottom {
+	display: block;
+	position: absolute;
+	
+	right: 0;
+	bottom: 0;
+	left: 0;
+	
+	width: 120px;
+
+	margin: auto;
+
+}
+
+.page-home__button-arrow--left {
+	display: block;
+	position: absolute;
+	top: 40%;
+	left: 0;
+}
+
+.page-home__title {
+	display: block;
+	
+	position: absolute;
+    top: 0;   
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+	width: 320px;
+    height: 320px;
+
+    margin: auto;
+}
+
+.page-home__button-arrow__title--right {
+	position: absolute;
+    top: 50px;
+    right: 90px;
+}
+
+.page-home__button-arrow__title--bottom {
+	position: absolute;
+    bottom: 120px;
+    left: 0;
+    right: 0;
+}
+
+.page-home__button-arrow__title--left {
+	position: absolute;
+	top: 30px;
+    left: 120px;
+}
+
+.page-home__button-primary {
+	margin: 0 auto;
+}

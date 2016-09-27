@@ -1,0 +1,8 @@
+.column-4 {
+	display: block;
+	position: relative;
+    float: left;
+
+    width: 30%;
+    margin: 0 3% 0 0;
+}

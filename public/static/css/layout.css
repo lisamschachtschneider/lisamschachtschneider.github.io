@@ -19,7 +19,17 @@ body {
 }
 
 .page {
-
+    position: absolute;
+    
+    min-width: 100%;
+    min-height: 100%;
+    
+    /*background-color: #336699;*/
+    /*background-color: #c7e5e2;*/
+    /*background-color: #C7E5E2;*/
+    /*background-color: #D2EAE8;*/
+    background-color: #91CDC7;
+    
 }
 
 .page-home {
@@ -30,10 +40,14 @@ body {
 	position: relative;
 	display: block;
 
-	height: 50px;
+	height: 10px;
 	width: 100%;
 
-	border-bottom: 1px solid grey;
+	/*background-color: #29468C;*/
+	/*background-color: #d29ea2;*/
+	background-color: #336699;
+	/*background-color: #c7d9e5;*/
+	/*border-bottom: 1px solid grey;*/
 }
 
 .header__menu-icon {
@@ -53,7 +67,43 @@ body {
 	position: relative;
 	
     width: 100%;
-    max-width: 750px;
+    /*max-width: 750px;*/
 
 	font-family: Verdana, Arial, sans-serif;
+}
+
+.section-landing {
+	height: 740px;
+
+	/*background-color: purple;*/
+}
+
+.section-about__copy {
+	max-width: 840px;
+	margin: 0 auto;
+    padding: 65px 0;
+}
+
+.section-about {
+	
+    height: 420px;
+
+    background-color: #cda991; 
+}
+
+.section-contact {
+	/*max-width: 840px;*/
+    height: 420px;
+
+	margin: 0 auto;
+    padding: 65px 0;
+
+    background-color: #cda991; 
+}
+
+.section-contact__copy {
+	max-width: 840px;
+	
+	margin: 0 auto;
+    padding: 65px 0;
 }

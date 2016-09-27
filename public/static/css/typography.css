@@ -1,29 +1,59 @@
 .title {
-	padding-bottom: 40px;
+	font-size: 35px;
+	line-height: 1;
+	color: #fff;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+    text-align: center;
 
-	font-size: 23px;
-    
-    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.emphasis {
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.button-arrow__title {
+	font-size: 25px;
+	line-height: 1;
+	color: #fff;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+
+    vertical-align: middle;
+
+}
+
+.button-arrow__title:hover {
+	color: red;
 }
 
 .subtitle {
 	
-	width: 180px;
+	/*width: 270px;*/
 
-	/*padding-bottom: 30px;*/
-	
-	font-size: 14px;
+	font-size: 35px;
 	line-height: 1.5;
+
+	color: #fff;
 }
 
-.subheader {
-	font-size: 14px;
+.subtitle--emphasis {
+	/*width: 270px;*/
+
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
 	line-height: 1.5;
+	text-transform: uppercase;
 }
 
 .p {
-	padding-bottom: 20px;
+	/*width: 370px;*/
 
+	color: #000;
 	font-size: 12px;
 	line-height: 1.5;
 }
@@ -31,5 +61,5 @@
 .link {
 	text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: #fff;
 }
