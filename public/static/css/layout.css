@@ -32,6 +32,18 @@ body {
     
 }
 
+.ir {
+	display: block;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transp
+}
+
+.svg {
+	width: 38px;
+	height: 38px;
+}
+
 .page-home {
 
 }

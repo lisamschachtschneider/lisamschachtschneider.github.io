@@ -18,7 +18,10 @@
 }
 
 .button-primary {
-	display: inline-block;
+	display: block;
+    
+    width: 149px;
+    height: 52px;
 
 	font-weight: bold;
     color: #fff;
@@ -29,8 +32,6 @@
     border-radius: 5px;
     padding: 12px 25px;
     
-
-
    	-webkit-transition: all 0.15s linear;
     -moz-transition: all 0.15s linear;
     -o-transition: all 0.15s linear;
@@ -40,9 +41,10 @@
 }
 
 .button-primary:hover {
-
-
-        /*background: #4a92a3;*/
-        background-color: #5cb5ac;
     color: #fff;
+    background-color: #5cb5ac;
+}
+
+.button-social {
+    display: inline-block;
 }
