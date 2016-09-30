@@ -2,6 +2,7 @@
 
 .button {
 	text-decoration: none;
+    cursor: pointer;
 }
 
 .button-arrow {
