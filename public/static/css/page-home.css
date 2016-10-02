@@ -1,3 +1,28 @@
+/*
+------------------------------------------------------
+    PAGE HOME
+------------------------------------------------------
+*/
+
+.page-home {
+
+}
+
+.page-home__title {
+	display: block;
+	
+	position: absolute;
+    top: 0;   
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+	width: 320px;
+    height: 320px;
+
+    margin: auto;
+}
+
 .page-home__button-arrow--right {
 	display: block;
 	position: absolute;
@@ -27,21 +52,6 @@
 	left: 0;
 }
 
-.page-home__title {
-	display: block;
-	
-	position: absolute;
-    top: 0;   
-    right: 0;
-    bottom: 0;
-    left: 0;
-    
-	width: 320px;
-    height: 320px;
-
-    margin: auto;
-}
-
 .page-home__button-arrow__title--right {
 	position: absolute;
     top: 50px;
@@ -63,6 +73,108 @@
 
 .page-home__button-primary {
 	margin: 0 auto;
+}
+
+/*
+------------------------------------------------------
+    HEADER
+------------------------------------------------------
+*/
+
+.header {
+	position: relative;
+	display: block;
+
+	height: 10px;
+	width: 100%;
+
+	/*background-color: #29468C;*/
+	/*background-color: #d29ea2;*/
+	background-color: #336699;
+	/*background-color: #c7d9e5;*/
+	/*border-bottom: 1px solid grey;*/
+}
+
+.header__menu-icon {
+	display: block;
+
+	position: absolute;
+    right: 10px;
+    top: 10px;
+
+	width: 30px;
+	height: 30px;
+
+}
+
+/*
+------------------------------------------------------
+    SECTION
+------------------------------------------------------
+*/
+
+.section {
+	display: block;
+	position: relative;
+	
+    width: 100%;
+    /*max-width: 750px;*/
+
+	font-family: Verdana, Arial, sans-serif;
+}
+
+/*
+------------------------------------------------------
+    SECTION LANDING
+------------------------------------------------------
+*/
+
+.section-landing {
+	height: 740px;
+
+	/*background-color: purple;*/
+}
+
+/*
+------------------------------------------------------
+    SECTION ABOUT
+------------------------------------------------------
+*/
+
+.section-about__copy {
+	max-width: 840px;
+	margin: 0 auto;
+    padding: 65px 0;
+}
+
+.section-about {
+	
+    height: 420px;
+
+    background-color: #cda991; 
+}
+
+/*
+------------------------------------------------------
+    SECTION CONTACT
+------------------------------------------------------
+*/
+
+.section-contact {
+	/*max-width: 840px;*/
+    height: 420px;
+
+	margin: 0 auto;
+    padding: 65px 0;
+
+    background-color: #cda991; 
+}
+
+.section-contact__copy {
+	max-width: 840px;
+	
+	margin: 0 auto;
+    padding: 65px 0;
 }
 
 .section-contact__subtitle {

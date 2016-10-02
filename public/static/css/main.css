@@ -1,131 +1,26 @@
-/*===============
-|    RESET     |
-/*=============== */
-   @import url("/Users/LMS/Code/github-pages/public/static/css/reset.css");
+/*=============
+|    Base     |
+/*============= */
 
-/*===============
-|    LAYOUT     |
-/*=============== */
-
-    @import url("/Users/LMS/Code/github-pages/public/static/css/layout.css");
+@import url("/Users/LMS/Code/github-pages/public/static/css/reset.css");
+@import url("/Users/LMS/Code/github-pages/public/static/css/layout.css");
+@import url("/Users/LMS/Code/github-pages/public/static/css/base.css");
+@import url("/Users/LMS/Code/github-pages/public/static/css/typography.css");
 
 
+/*==============
+|    Pages     |
+/*============== */
+
+@import url("/Users/LMS/Code/github-pages/public/static/css/page-home.css");
 
 
+/*================
+|    Modules     |
+/*================ */
 
+@import url("/Users/LMS/Code/github-pages/public/static/css/columns.css");
+@import url("/Users/LMS/Code/github-pages/public/static/css/list.css");
+@import url("/Users/LMS/Code/github-pages/public/static/css/timeline.css");
+@import url("/Users/LMS/Code/github-pages/public/static/css/buttons.css");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.section-main__copy {
-    display: block;
-
-    padding: 100px 24px 100px;
-    margin: 0 auto;
-    
-    font-size: 0;
-}
-
-.section-tagline {
-	position: relative;
-
-	margin-bottom: 40px;
-}
-
-.section-main__icon-chicago {
-    display: inline-block;
-
-    position: absolute;
-	top: 20px;
-    right: 10px;
-
-    width: 70px;
-    height: 70px;
-}
-
-.section-experience__header {
-	position: relative;
-    
-    height: 80px;
-
-    margin-bottom: 40px;
-}
-
-.experience-section {
-    top: 100px;
-
-    width: 240px;
-    
-    font-size: 15px;
-}
-
-.experience-section__title {
-	position: absolute;
-    top: 4px;
-
-    padding-left: 50px;
-}
-
-.experience-section__image {
-	position: absolute;
-	top: -10px;
-	left: 0;
-    
-}
-
-.section-main__icon {
-	display: block;
-
-    right: 0;
-    left: 0;
-
-    margin: 20px auto;
-}
-
-.section-main__icon-title  {
-	display: inline-block;
-
-    position: absolute;
-	top: 20px;
-    left: 25px;
-    
-    width: 50px;
-    height: 50px;
-}
-
-.section-experience__title {
-	
-    display: inline-block;
-	
-	position: absolute;
-    top: 30px;
-    // top: 40px;
-    right: 60px;
-    width: 120px;
-	// width: 200px;
-}
-
-@media screen and (min-width:667px) {
-	.section-main__copy {
-
-	    padding: 100px 200px 100px;
-    
-	}
-
-	.section-experience__title {
-
-	    top: 40px;
-
-		width: 200px;
-	}
-}
