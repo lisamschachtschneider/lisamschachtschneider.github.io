@@ -17,8 +17,11 @@
     bottom: 0;
     left: 0;
     
-	width: 320px;
-    height: 320px;
+    width: 310px;
+    height: 242px;
+
+/*	width: 420px;
+    height: 172px;*/
 
     margin: auto;
 }
@@ -109,6 +112,24 @@
 
 /*
 ------------------------------------------------------
+    SECTION-ISCHIA
+------------------------------------------------------
+*/
+
+.section-ischia { 
+
+	height: 500px; 
+    
+    background-image: url("../img/ischia.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*
+------------------------------------------------------
     SECTION
 ------------------------------------------------------
 */
@@ -141,18 +162,36 @@
 ------------------------------------------------------
 */
 
-.section-about__copy {
-	max-width: 840px;
-	margin: 0 auto;
-    padding: 65px 0;
-}
-
 .section-about {
-	
-    height: 420px;
-
+    padding: 65px 0;
+    margin: 0 auto;
     background-color: #cda991; 
 }
+
+.section-about__copy {
+	max-width: 700px;
+	margin: 0 auto;
+    
+}
+
+/*
+------------------------------------------------------
+    SECTION-TRAVEL
+------------------------------------------------------
+*/
+
+.section-travel { 
+
+	height: 500px; 
+    
+    background-image: url("../img/geneva-with-dad.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 /*
 ------------------------------------------------------
