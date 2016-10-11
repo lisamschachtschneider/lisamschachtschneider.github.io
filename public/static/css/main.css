@@ -2,25 +2,25 @@
 |    Base     |
 /*============= */
 
-@import url("public/static/css/reset.css");
-@import url("public/static/css/layout.css");
-@import url("public/static/css/base.css");
-@import url("public/static/css/typography.css");
+@import url("/public/static/css/reset.css");
+@import url("/public/static/css/layout.css");
+@import url("/public/static/css/base.css");
+@import url("/public/static/css/typography.css");
 
 
 /*==============
 |    Pages     |
 /*============== */
 
-@import url("public/static/css/page-home.css");
+@import url("/public/static/css/page-home.css");
 
 
 /*================
 |    Modules     |
 /*================ */
 
-@import url("public/static/css/columns.css");
-@import url("public/static/css/list.css");
-@import url("public/static/css/timeline.css");
-@import url("public/static/css/buttons.css");
+@import url("/public/static/css/columns.css");
+@import url("/public/static/css/list.css");
+@import url("/public/static/css/timeline.css");
+@import url("/public/static/css/buttons.css");
 
