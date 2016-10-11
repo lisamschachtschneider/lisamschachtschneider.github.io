@@ -77,10 +77,10 @@
     
     background: url(/public/static/img/ischia-1.jpg);
 
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: 500%;
+    /*background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    background-size: cover;
 }
 
 /*
@@ -151,10 +151,10 @@
     
     background: url(/public/static/img/geneva-with-dad-1.jpg);
 
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: 240%;
+/*    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    background-size: cover;
 }
 
 
