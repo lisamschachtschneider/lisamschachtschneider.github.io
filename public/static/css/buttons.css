@@ -19,16 +19,17 @@
     display: block;
     
     width: 149px;
-    height: 52px;
+    height: 50px;
 
     font-weight: bold;
     color: #fff;
     background: #91CDC7;
     font-size: 1.2em;
+    line-height: 50px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    padding: 12px 25px;
+    padding: 0px 25px;
     
     -webkit-transition: all 0.15s linear;
     -moz-transition: all 0.15s linear;

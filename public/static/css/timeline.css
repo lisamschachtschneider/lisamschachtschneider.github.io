@@ -7,18 +7,19 @@
 .timeline__intro {
   color: #fff;
   background: #336699;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .timeline__intro-container {
-  width: 90%;
+  width: 79%;
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
 }
 
 .timeline__header {
-  font-size: 2.5rem;
+  font-size: 22px;
+  line-height: 1.5;
 }
 
 

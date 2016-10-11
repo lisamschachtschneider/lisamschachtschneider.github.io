@@ -153,7 +153,8 @@
 .section-landing {
 	height: 740px;
 
-	/*background-color: purple;*/
+	background: url(../img/chicago.jpg);
+    background-size: cover;
 }
 
 /*
@@ -168,11 +169,20 @@
     background-color: #cda991; 
 }
 
-.section-about__copy {
+.section-about__copy--wrapper {
 	max-width: 700px;
 	margin: 0 auto;
     
 }
+
+.section-about__copy {
+	display: inline-block;
+
+    margin: 0 0 3% 0;
+
+    vertical-align: top;
+}
+
 
 /*
 ------------------------------------------------------
@@ -201,7 +211,7 @@
 
 .section-contact {
 	/*max-width: 840px;*/
-    height: 420px;
+    /*height: 420px;*/
 
 	margin: 0 auto;
     padding: 65px 0;
@@ -210,16 +220,32 @@
 }
 
 .section-contact__copy {
-	max-width: 840px;
+	/*max-width: 840px;
 	
 	margin: 0 auto;
-    padding: 65px 0;
+    padding: 65px 0;*/
 }
 
 .section-contact__subtitle {
+	font-size: 27px;
+	font-weight: bold;
 	text-align: center;
 }
 
+.section-contact__p {
+	margin-bottom: 30px;
+
+    font-size: 20px;
+    text-align: center;
+}
+
+.page-home__button-primary {
+	margin-bottom: 30px;
+}
+
 .section-contact__h4 {
+	margin-bottom: 15px;
+
 	text-align: center;
+
 }
