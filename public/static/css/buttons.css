@@ -71,6 +71,14 @@
 
 .button-social {
     display: inline-block;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+.button-social:hover{
+    transform: scale(1.2);
 }
 
 
