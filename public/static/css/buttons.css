@@ -31,17 +31,8 @@
     border-radius: 5px;
     padding: 0px 25px;
     
-    -webkit-transition: all 0.15s linear;
-    -moz-transition: all 0.15s linear;
-    -o-transition: all 0.15s linear;
-    transition: all 0.15s linear;
     outline: none;
     text-decoration: none;
-}
-
-.button-primary:hover {
-    color: #fff;
-    background-color: #5cb5ac;
 }
 
 /*
@@ -51,16 +42,12 @@
 */
 
 .button-arrow {
-    width: 120px;
-    height: 120px;
+    width: 60px;
+    height: 60px;
 }
 
 .button-arrow--bottom {
 	transform: rotate(90deg);
-}
-
-.button-arrow--left {
-	transform: scaleX(-1);
 }
 
 /*
@@ -71,14 +58,65 @@
 
 .button-social {
     display: inline-block;
-    -webkit-transition: .2s ease-in-out;
-    -moz-transition: .2s ease-in-out;
-    -o-transition: .2s ease-in-out;
-    transition: .2s ease-in-out;
-}
-
-.button-social:hover{
-    transform: scale(1.2);
 }
 
 
+
+
+
+/*
+------------------------------------------------------
+    MEDIA QUERY 768PX
+------------------------------------------------------
+*/
+
+@media screen and (min-width: 768px) {
+
+    /*
+    ------------------------------------------------------
+        BUTTON PRIMARY
+    ------------------------------------------------------
+    */
+
+    .button-primary {
+        
+        -webkit-transition: all 0.15s linear;
+        -moz-transition: all 0.15s linear;
+        -o-transition: all 0.15s linear;
+        transition: all 0.15s linear;
+    }
+
+    .button-primary:hover {
+        color: #fff;
+        background-color: #5cb5ac;
+    }
+
+    /*
+    ------------------------------------------------------
+        BUTTON ARROW
+    ------------------------------------------------------
+    */
+
+    .button-arrow {
+        width: 120px;
+        height: 120px;
+    }
+
+    /*
+    ------------------------------------------------------
+        BUTTON SOCIAL
+    ------------------------------------------------------
+    */
+
+    .button-social {
+
+        -webkit-transition: .2s ease-in-out;
+        -moz-transition: .2s ease-in-out;
+        -o-transition: .2s ease-in-out;
+        transition: .2s ease-in-out;
+    }
+
+    .button-social:hover{
+        transform: scale(1.2);
+    }
+}

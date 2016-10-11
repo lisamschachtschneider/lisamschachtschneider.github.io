@@ -1,5 +1,5 @@
 .title {
-	font-size: 35px;
+	font-size: 20px;
 	line-height: 1;
 	color: #fff;
 	font-family: Helvetica Neue, Helvetica, sans-serif;
@@ -31,10 +31,8 @@
 }
 
 .subtitle {
-	
-	/*width: 270px;*/
 
-	font-size: 35px;
+	font-size: 18px;
 	font-family: Helvetica Neue, Helvetica, sans-serif;
 	line-height: 1.5;
 
@@ -42,7 +40,6 @@
 }
 
 .subtitle--emphasis {
-	/*width: 270px;*/
 
 	color: #000;
 	font-size: 15px;
@@ -52,10 +49,9 @@
 }
 
 .p {
-	/*width: 370px;*/
-
 	color: #000;
-	font-size: 12px;
+	font-size: 15px;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
 	line-height: 1.5;
 }
 
@@ -69,4 +65,44 @@
 .link:hover{
     color: #336699;
     cursor: pointer;
+}
+
+/*
+------------------------------------------------------
+    MEDIA QUERY 768PX
+------------------------------------------------------
+*/
+
+@media screen and (min-width: 768px) {
+	.title {
+		font-size: 35px;
+		line-height: 1;
+	}
+
+	.emphasis {
+
+	}
+
+
+	.subtitle {
+		font-size: 35px;
+	}
+
+	.subtitle--emphasis {
+
+		font-size: 15px;
+	}
+
+	.p {
+
+		font-size: 12px;
+	}
+
+	.link {
+
+	}
+
+	.link:hover{
+
+	}	
 }

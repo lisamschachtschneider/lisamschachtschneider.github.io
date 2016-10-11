@@ -17,8 +17,8 @@
     bottom: 0;
     left: 0;
     
-    width: 310px;
-    height: 242px;
+    width: 175px;
+    height: 138px;
 
     margin: auto;
 }
@@ -50,11 +50,7 @@
 	height: 10px;
 	width: 100%;
 
-	/*background-color: #29468C;*/
-	/*background-color: #d29ea2;*/
 	background-color: #336699;
-	/*background-color: #c7d9e5;*/
-	/*border-bottom: 1px solid grey;*/
 }
 
 .header__menu-icon {
@@ -110,7 +106,7 @@
 */
 
 .section-landing {
-	height: 740px;
+	height: 550px;
 
 	background: url(../img/chicago.jpg);
     background-size: cover;
@@ -123,7 +119,7 @@
 */
 
 .section-about {
-    padding: 65px 0;
+    padding: 45px 45px;
     margin: 0 auto;
     background-color: #cda991; 
 }
@@ -176,12 +172,17 @@
 }
 
 .section-contact__subtitle {
-	font-size: 27px;
+	padding: 0 50px;
+    margin-bottom: 20px;
+
+	font-size: 25px;
 	font-weight: bold;
 	text-align: center;
+
 }
 
 .section-contact__p {
+	display: none;
 	margin-bottom: 30px;
 
     font-size: 20px;
@@ -192,9 +193,146 @@
 	margin: 0 auto 30px auto;
 }
 
-.section-contact__h4 {
+.section-contact__social-title {
 	margin-bottom: 15px;
-
+    padding: 0 50px;
 	text-align: center;
+
+}
+
+
+/*
+------------------------------------------------------
+    MEDIA QUERY 768PX
+------------------------------------------------------
+*/
+
+@media screen and (min-width: 768px) {
+	/*
+	------------------------------------------------------
+	    PAGE HOME
+	------------------------------------------------------
+	*/
+
+	.page-home {
+
+	}
+
+	.page-home__title {
+
+	    width: 310px;
+	    height: 242px;
+	}
+
+	.page-home__button-arrow--bottom {
+		
+		width: 120px;
+	}
+
+	/*
+	------------------------------------------------------
+	    HEADER
+	------------------------------------------------------
+	*/
+
+	.header {
+		
+	}
+
+	.header__menu-icon {
+
+	}
+
+	/*
+	------------------------------------------------------
+	    SECTION-ISCHIA
+	------------------------------------------------------
+	*/
+
+	.section-ischia { 
+
+	}
+
+	/*
+	------------------------------------------------------
+	    SECTION
+	------------------------------------------------------
+	*/
+
+	.section {
+	
+	}
+
+	/*
+	------------------------------------------------------
+	    SECTION LANDING
+	------------------------------------------------------
+	*/
+
+	.section-landing {
+		height: 740px;
+	}
+
+	/*
+	------------------------------------------------------
+	    SECTION ABOUT
+	------------------------------------------------------
+	*/
+
+	.section-about {
+	    padding: 65px 0;
+	}
+
+	.section-about__copy--wrapper {
+
+	}
+
+	.section-about__copy {
+	
+	}
+
+
+	/*
+	------------------------------------------------------
+	    SECTION-TRAVEL
+	------------------------------------------------------
+	*/
+
+	.section-travel { 
+
+	}
+
+
+	/*
+	------------------------------------------------------
+	    SECTION CONTACT
+	------------------------------------------------------
+	*/
+
+	.section-contact {
+	    padding: 65px 0;
+
+	}
+
+	.section-contact__subtitle {
+		font-size: 27px;
+	}
+
+	.section-contact__p {
+		margin-bottom: 30px;
+
+	    font-size: 20px;
+	}
+
+	.page-home__button-primary {
+		margin: 0 auto 30px auto;
+	}
+
+	.section-contact__h4 {
+		margin-bottom: 15px;
+
+		text-align: center;
+
+	}
 
 }
