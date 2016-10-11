@@ -1,0 +1,198 @@
+/*
+------------------------------------------------------
+    TIMELINE INTRO
+------------------------------------------------------
+*/
+
+.timeline__intro {
+  color: #fff;
+  background: #336699;
+  padding: 50px 23px;
+}
+
+.timeline__intro-container {
+  width: 79%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.timeline__header {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+/*
+------------------------------------------------------
+    TIMELINE
+------------------------------------------------------
+*/
+
+.timeline {
+  margin-bottom: 0px;
+}
+
+.timeline__list__item {
+
+  list-style-type: none;
+  
+  position: relative;
+
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  color: #fff;
+}
+
+/*
+------------------------------------------------------
+    TIMELINE BLOCK
+------------------------------------------------------
+*/
+
+.timeline__block {
+
+  width: 320px;
+
+  margin: 0 auto;
+  padding: 15px;
+  
+  background: #336699;
+}
+
+.timeline__list__item:nth-child(odd) .timeline__block {
+  left: 45px;
+}
+
+.timeline__list__item:nth-child(odd) .timeline__block::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #336699 transparent transparent;
+}
+
+.timeline__list__item:nth-child(even) .timeline__block {
+  left: -439px;
+}
+
+.timeline__list__item:nth-child(even) .timeline__block::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #336699;
+}
+
+
+/*
+------------------------------------------------------
+    MEDIA QUERY 768PX
+------------------------------------------------------
+*/
+
+@media screen and (min-width: 768px) {
+  
+  /*
+  ------------------------------------------------------
+      TIMELINE INTRO
+  ------------------------------------------------------
+  */
+
+  .timeline__intro {
+    color: #fff;
+    background: #336699;
+    padding: 50px 0;
+  }
+
+  .timeline__intro-container {
+    width: 79%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .timeline__header {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+
+  /*
+  ------------------------------------------------------
+      TIMELINE
+  ------------------------------------------------------
+  */
+
+  .timeline {
+    margin-bottom: 80px;
+  }
+
+  .timeline__list__item {
+    list-style-type: none;
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #fff;
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+    color: #fff;
+    padding-bottom: 50px;
+  }
+
+  .timeline__list__item::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: inherit;
+  }
+
+  /*
+  ------------------------------------------------------
+      TIMELINE BLOCK
+  ------------------------------------------------------
+  */
+
+  .timeline__block {
+    position: relative;
+    bottom: -50px;
+    width: 340px;
+    padding: 15px;
+    background: #336699;
+  }
+
+  .timeline__block::before {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+
+  .timeline__list__item:nth-child(odd) .timeline__block {
+    left: 45px;
+  }
+
+  .timeline__list__item:nth-child(odd) .timeline__block::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #336699 transparent transparent;
+  }
+
+  .timeline__list__item:nth-child(even) .timeline__block {
+    left: -379px;
+  }
+
+  .timeline__list__item:nth-child(even) .timeline__block::before {
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent #336699;
+  }
+
+
+}

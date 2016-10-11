@@ -1,0 +1,338 @@
+/*
+------------------------------------------------------
+    PAGE HOME
+------------------------------------------------------
+*/
+
+.page-home {
+
+}
+
+.page-home__title {
+	display: block;
+	
+	position: absolute;
+    top: 0;   
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    width: 175px;
+    height: 138px;
+
+    margin: auto;
+}
+
+.page-home__button-arrow--bottom {
+	display: block;
+	position: absolute;
+	
+	right: 0;
+	bottom: 0;
+	left: 0;
+	
+	width: 120px;
+
+	margin: auto;
+
+}
+
+/*
+------------------------------------------------------
+    HEADER
+------------------------------------------------------
+*/
+
+.header {
+	position: relative;
+	display: block;
+
+	height: 10px;
+	width: 100%;
+
+	background-color: #336699;
+}
+
+.header__menu-icon {
+	display: block;
+
+	position: absolute;
+    right: 10px;
+    top: 10px;
+
+	width: 30px;
+	height: 30px;
+
+}
+
+/*
+------------------------------------------------------
+    SECTION-ISCHIA
+------------------------------------------------------
+*/
+
+.section-ischia { 
+
+	height: 500px; 
+    
+    background-image: url("../img/ischia.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*
+------------------------------------------------------
+    SECTION
+------------------------------------------------------
+*/
+
+.section {
+	display: block;
+	position: relative;
+	
+    width: 100%;
+    /*max-width: 750px;*/
+
+	font-family: Verdana, Arial, sans-serif;
+}
+
+/*
+------------------------------------------------------
+    SECTION LANDING
+------------------------------------------------------
+*/
+
+.section-landing {
+	height: 550px;
+
+	background: url(../img/chicago.jpg);
+    background-size: cover;
+}
+
+/*
+------------------------------------------------------
+    SECTION ABOUT
+------------------------------------------------------
+*/
+
+.section-about {
+    padding: 45px 45px;
+    margin: 0 auto;
+    background-color: #cda991; 
+}
+
+.section-about__copy--wrapper {
+	max-width: 700px;
+	margin: 0 auto;
+    
+}
+
+.section-about__copy {
+	display: inline-block;
+
+    margin: 0 0 3% 0;
+
+    vertical-align: top;
+}
+
+
+/*
+------------------------------------------------------
+    SECTION-TRAVEL
+------------------------------------------------------
+*/
+
+.section-travel { 
+
+	height: 500px; 
+    
+    background-image: url("../img/geneva-with-dad.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*
+------------------------------------------------------
+    SECTION CONTACT
+------------------------------------------------------
+*/
+
+.section-contact {
+	margin: 0 auto;
+    padding: 65px 0;
+
+    background-color: #cda991; 
+}
+
+.section-contact__subtitle {
+	padding: 0 50px;
+    margin-bottom: 20px;
+
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.section-contact__p {
+	display: none;
+	margin-bottom: 30px;
+
+    font-size: 20px;
+    text-align: center;
+}
+
+.page-home__button-primary {
+	margin: 0 auto 30px auto;
+}
+
+.section-contact__social-title {
+	margin-bottom: 15px;
+    padding: 0 50px;
+	text-align: center;
+
+}
+
+
+/*
+------------------------------------------------------
+    MEDIA QUERY 768PX
+------------------------------------------------------
+*/
+
+@media screen and (min-width: 768px) {
+	/*
+	------------------------------------------------------
+	    PAGE HOME
+	------------------------------------------------------
+	*/
+
+	.page-home {
+
+	}
+
+	.page-home__title {
+
+	    width: 310px;
+	    height: 242px;
+	}
+
+	.page-home__button-arrow--bottom {
+		
+		width: 120px;
+	}
+
+	/*
+	------------------------------------------------------
+	    HEADER
+	------------------------------------------------------
+	*/
+
+	.header {
+		
+	}
+
+	.header__menu-icon {
+
+	}
+
+	/*
+	------------------------------------------------------
+	    SECTION-ISCHIA
+	------------------------------------------------------
+	*/
+
+	.section-ischia { 
+
+	}
+
+	/*
+	------------------------------------------------------
+	    SECTION
+	------------------------------------------------------
+	*/
+
+	.section {
+	
+	}
+
+	/*
+	------------------------------------------------------
+	    SECTION LANDING
+	------------------------------------------------------
+	*/
+
+	.section-landing {
+		height: 740px;
+	}
+
+	/*
+	------------------------------------------------------
+	    SECTION ABOUT
+	------------------------------------------------------
+	*/
+
+	.section-about {
+	    padding: 65px 0;
+	}
+
+	.section-about__copy--wrapper {
+
+	}
+
+	.section-about__copy {
+	
+	}
+
+
+	/*
+	------------------------------------------------------
+	    SECTION-TRAVEL
+	------------------------------------------------------
+	*/
+
+	.section-travel { 
+
+	}
+
+
+	/*
+	------------------------------------------------------
+	    SECTION CONTACT
+	------------------------------------------------------
+	*/
+
+	.section-contact {
+	    padding: 65px 0;
+
+	}
+
+	.section-contact__subtitle {
+		font-size: 27px;
+	}
+
+	.section-contact__p {
+		margin-bottom: 30px;
+
+	    font-size: 20px;
+	}
+
+	.page-home__button-primary {
+		margin: 0 auto 30px auto;
+	}
+
+	.section-contact__h4 {
+		margin-bottom: 15px;
+
+		text-align: center;
+
+	}
+
+}

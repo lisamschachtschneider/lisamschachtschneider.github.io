@@ -1,35 +1,108 @@
 .title {
-	padding-bottom: 40px;
+	font-size: 20px;
+	line-height: 1;
+	color: #fff;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+    text-align: center;
 
-	font-size: 23px;
-    
-    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.emphasis {
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.button-arrow__title {
+	font-size: 25px;
+	line-height: 1;
+	color: #fff;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+
+    vertical-align: middle;
+
+}
+
+.button-arrow__title:hover {
+	color: red;
 }
 
 .subtitle {
-	
-	width: 180px;
 
-	/*padding-bottom: 30px;*/
-	
-	font-size: 14px;
+	font-size: 18px;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
 	line-height: 1.5;
+
+	color: #fff;
 }
 
-.subheader {
-	font-size: 14px;
+.subtitle--emphasis {
+
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
 	line-height: 1.5;
+	text-transform: uppercase;
 }
 
 .p {
-	padding-bottom: 20px;
-
-	font-size: 12px;
+	color: #000;
+	font-size: 15px;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
 	line-height: 1.5;
 }
 
 .link {
 	text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: #fff;
+    transition: .2s ease-in-out;
+}
+
+.link:hover{
+    color: #336699;
+    cursor: pointer;
+}
+
+/*
+------------------------------------------------------
+    MEDIA QUERY 768PX
+------------------------------------------------------
+*/
+
+@media screen and (min-width: 768px) {
+	.title {
+		font-size: 35px;
+		line-height: 1;
+	}
+
+	.emphasis {
+
+	}
+
+
+	.subtitle {
+		font-size: 35px;
+	}
+
+	.subtitle--emphasis {
+
+		font-size: 15px;
+	}
+
+	.p {
+
+		font-size: 12px;
+	}
+
+	.link {
+
+	}
+
+	.link:hover{
+
+	}	
 }
