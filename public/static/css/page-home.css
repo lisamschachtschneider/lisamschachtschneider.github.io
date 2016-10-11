@@ -75,7 +75,7 @@
 
 	height: 500px; 
     
-    background-image: url("../img/ischia.jpg");
+    background-image: url("/public/img/ischia.jpg");
 
     background-attachment: fixed;
     background-position: center;
@@ -108,7 +108,7 @@
 .section-landing {
 	height: 550px;
 
-	background: url(../img/chicago.jpg);
+	background: url(/public/img/chicago.jpg);
     background-size: cover;
 }
 
@@ -149,7 +149,7 @@
 
 	height: 500px; 
     
-    background-image: url("../img/geneva-with-dad.jpg");
+    background-image: url("/public/img/geneva-with-dad.jpg");
 
     background-attachment: fixed;
     background-position: center;
