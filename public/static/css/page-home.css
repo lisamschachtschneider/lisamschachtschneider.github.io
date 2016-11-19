@@ -131,7 +131,7 @@
 }
 
 .section-about__copy {
-	display: inline-block;
+	display: block;
 
     margin: 0 0 3% 0;
 
